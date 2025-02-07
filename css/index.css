@@ -1,0 +1,324 @@
+/* 整个盒子大小 */
+.box {
+    position: relative;
+    margin: 0 auto;
+    width: 1420px;
+}
+/* 置顶背景图 */
+.box .imgs {
+    height: 640px;
+}
+/* 置顶阴影区 */
+.box .imgs .white {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1420px;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.box .imgs .jay img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    vertical-align: middle;
+    transition: all 0.5s;
+}
+.box .imgs .jay img:hover {
+    width: 230px;
+    height: 230px;
+}
+.box .imgs .jay span {
+    position: absolute;
+    top: 50%;
+    left: 230px;
+    font-size: 50px;
+    font-family: 华文行楷;
+    color: rgb(216, 192, 57);
+    cursor: default;
+}
+.box .imgs .jay p {
+    position: absolute;
+    top: 58%;
+    left: 235px;
+    font-size: 35px;
+    color: gold;
+}
+.box .imgs .jay strong {
+    position: absolute;
+    top: 59%;
+    left: 625px;
+    font-size: 95px;
+    font-family: 华文行楷;
+    color: rgb(251, 255, 0);
+}
+/* 置顶介绍 */
+.box .imgs .askme {
+    position: absolute;
+    margin: 0 auto;
+    top: 75%;
+    width: 1200px;
+    text-indent: 2em;
+    left: 100px;
+    font-size: 20px;
+    color: red;
+}
+/* 中间内容区域 */
+.bd {
+    width: 1420px;
+    margin-top: 70px;
+}
+/* 实战画面 */
+.bd .upone {
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+}
+.bd .upone div {
+    margin: 0 auto;
+    width: 370px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: brown;
+    cursor: default;
+}
+.bd .upone div:hover {
+    color: rgb(255, 105, 0);
+}
+.bd .upimgs {
+    margin-top: 20px;
+    text-align: center;
+}
+.bd .upimgs img {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.bd .upimgs img:nth-child(2n) {
+    margin-right: 0;
+}
+/* 精彩回放 */
+.bd .m24gun {
+    margin-top: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+}
+.bd .m24gun div {
+    margin: 0 auto;
+    width: 370px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: brown;
+    cursor: default;
+}
+.bd .m24gun div:hover {
+    color: rgb(255, 105, 0);
+}
+/* 视频居中 */
+.bd .upvtoo {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 1420px;
+    text-align: center;
+}
+/* 设备简介 */
+.bd .workpc {
+    margin: 0 auto;
+    width: 1300px;
+    height: 690px;
+}
+/* 左图设备区域 */
+.bd .workpc .intro {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    cursor: default;
+}
+.bd .workpc .intro:hover {
+    color: rgb(0, 174, 236);
+}
+.bd .workpc .pcimg {
+    margin-bottom: 50px;
+    float: left;
+    width: 500px;
+    height: 560px;
+}
+.bd .workpc .pcimg img {
+    margin-top: 20px;
+}
+.bd .workpc .pcimg img:first-child {
+    margin-top: 0;
+}
+/* 右边设备介绍 */
+.bd .workpc .rtext {
+    padding: 0px 45px;
+    float: right;
+    width: 800px;
+    height: 560px;
+}
+.bd .workpc .rtext b {
+    font-size: 24px;
+}
+.bd .workpc .rtext b a {
+    color: black;
+}
+.bd .workpc .rtext p {
+    text-indent: 2em;
+    padding: 5px 0px;
+    font-weight: 100;
+}
+.bd .workpc .rtext strong {
+    font-size: 20px;
+}
+.bd .workpc .rtext li {
+    text-indent: 2em;
+    padding: 6px 0px;
+    font-weight: 400;
+}
+.bd .workpc .rtext li a {
+    color: black;
+}
+/* 家乡简介 */
+.bd .hometext {
+    margin: 0 auto;
+    width: 1300px;
+    height: 645px;
+}
+/* 左边家乡区域 */
+.bd .hometext .homeask {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    cursor: default;
+}
+.bd .hometext .homeask:hover {
+    color: rgb(0, 174, 236);
+}
+.bd .hometext .homejpg {
+    float: left;
+    width: 500px;
+    height: 580px;
+}
+/* 右边家乡区域 */
+.bd .hometext .rhome {
+    padding: 0px 45px;
+    float: right;
+    width: 800px;
+    height: 580px;
+}
+.bd .hometext .rhome strong {
+    font-size: 24px;
+}
+.bd .hometext .rhome p {
+    padding: 25px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bd .hometext .rhome b {
+    font-size: 20px;
+}
+.bd .hometext .rhome li {
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bd .hometext .rhome p,
+.bd .hometext .rhome li {
+    text-indent: 2em;
+}
+/* 添加信息 */
+.bd .upgame {
+    margin-top: 70px;
+    height: 450px;
+}
+/* 标题居中 */
+.bd .upgame .uptwo {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 320px;
+    height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 9px 9px 4px 6px rgba(0, 0, 0, 0.5);
+    line-height: 70px;
+    font-size: 25px;
+    cursor: default;
+}
+.bd .upgame .uptwo:hover {
+    color: rgb(255, 105, 0);
+}
+/* 作者网址 */
+.bd .upgame .upzu {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.bd .upgame .upzu img {
+    border-radius: 10px;
+}
+.bd .upgame .upzu .zuin .author,
+.bd .upgame .upzu .gmin .gamesite {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    line-height: 40px;
+    margin-top: 260px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+.bd .upgame .upzu .zuin .author:hover,
+.bd .upgame .upzu .gmin .gamesite:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 174, 236);
+    border: 1px solid rgb(0, 174, 236);
+}
+.bd .upgame .upzu .zuin .author:active,
+.bd .upgame .upzu .gmin .gamesite:active {
+    color: rgb(0, 174, 236);
+    background-color: white;
+}
+.bd .upgame .upzu .zuin a,
+.bd .upgame .upzu .gmin a {
+    font-size: 18px;
+}
+.bd .upgame .upzu .zuin img,
+.bd .upgame .upzu .gmin img {
+    position: absolute;
+    transition: all 0.6s;
+}
+.bd .upgame .upzu .zuin img:hover,
+.bd .upgame .upzu .gmin img:hover {
+    width: 245px;
+    height: 245px;
+}
+/* 版权区域 */
+.foot {
+    width: 1420px;
+    margin-top: 70px;
+}
+.foot .ICP {
+    width: 1440px;
+    height: 120px;
+    background-color: #19191a;
+    align-content: center;
+}
+.foot .ICP div {
+    width: 1420px;
+    text-align: center;
+}
+.foot .ICP div p,
+.foot .ICP div p a {
+    color: white;
+}
+.foot .ICP div p a:hover {
+    color: rgb(106, 106, 219);
+}
