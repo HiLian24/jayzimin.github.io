@@ -46,14 +46,6 @@
     font-size: 35px;
     color: gold;
 }
-.box .imgs .jay strong {
-    position: absolute;
-    top: 59%;
-    left: 625px;
-    font-size: 95px;
-    font-family: 华文行楷;
-    color: rgb(251, 255, 0);
-}
 /* 置顶介绍 */
 .box .imgs .askme {
     position: absolute;
