@@ -38,6 +38,9 @@
     color: rgb(216, 192, 57);
     cursor: default;
 }
+.box .imgs .jay span a {
+    color: rgb(216, 192, 57);
+}
 .box .imgs .jay span b {
     font-size: 40px;
     font-family: 楷体;
